@@ -11,7 +11,7 @@
   background-image: var(--background-image);
   background-color: var(--approximately-black);
 
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+/* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 .header {
   position: relative;
