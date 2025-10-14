@@ -5,8 +5,50 @@
 */
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
+  --accent-color: var(--real-red);
+  --decoration-color: var(--real-red);
+  --button-color: var(--real-red);
+  --main-bg-color: var(--approximately-black);
+  --main-text-color: var(--title-pink);
+  --nav-color: var(--approximately-black);
+  --nav-hover-color: var(--almost-red);
+  --main-heading-color: var(--real-red);
+  --main-section-color: var(--real-red);
+  --header-logo-color: var(--title-color-dark);
+  --footer-logo-color: var(--title-color-dark);
+  --background-image: url("../images/cover-image-dark.png");
+}
+/* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: var(--real-red);
+    --decoration-color: var(--real-red);
+    --button-color: var(--real-red);
+    --main-bg-color: var(--approximately-black);
+    --main-text-color: var(--title-pink);
+    --nav-color: var(--real-red);
+    --nav-hover-color: var(--almost-red);
+    --main-heading-color: var(--real-red);
+    --main-section-color: var(--real-red);
+    --header-logo-color: var(--title-color-dark);
+    --footer-logo-color: var(--title-color-dark);
+    --background-image: url("../images/cover-image-dark.png");
+  }
+  .rec_lable::after {
+    display: inline-block;
+  }
+  .rec_lable {
+    display: inline-flex;
+  }
+}
+
+.theme-dark .rec_lable::after {
+  display: inline-block;
+}
+.theme-dark .rec_lable {
+  display: inline-flex;
 }

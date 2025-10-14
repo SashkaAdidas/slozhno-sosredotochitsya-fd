@@ -3,10 +3,50 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
+  --accent-color: var(--basic-pink);
+  --decoration-color: var(--almost-black);
+  --button-color: var(--almost-black);
+  --main-bg-color: var(--almost-white-bg);
+  --main-text-color: var(--almost-black);
+  --nav-color: var(--almost-black);
+  --nav-hover-color: var(--almost-black);
+  --main-heading-color: var(--almost-black);
+  --main-section-color: var(--almost-black);
+  --header-logo-color: var(--title-color-light);
+  --footer-logo-color: var(--title-color-light);
+  --background-image: url("../images/cover-image-light.png");
+}
+/* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: var(--basic-pink);
+    --decoration-color: var(--almost-black);
+    --button-color: var(--almost-black);
+    --main-bg-color: var(--almost-white-bg);
+    --main-text-color: var(--almost-black);
+    --nav-color: var(--almost-black);
+    --nav-hover-color: var(--almost-black);
+    --main-heading-color: var(--almost-black);
+    --main-section-color: var(--almost-black);
+    --header-logo-color: var(--title-color-light);
+    --footer-logo-color: var(--title-color-light);
+    --background-image: url("../images/cover-image-light.png");
+  }
+  .rec_lable::after {
+    display: none;
+  }
+  .rec_lable {
+    display: none;
+  }
+}
+.theme-light .rec_lable::after {
+  display: none;
+}
+.theme-light .rec_lable {
+  display: none;
 }

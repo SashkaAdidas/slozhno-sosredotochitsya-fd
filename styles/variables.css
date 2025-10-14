@@ -2,3 +2,28 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --title-color-light: #ffc2e6;
+  --basic-pink: #ff8dcb;
+  --title-pink: #f1b2ce;
+  --almost-white-bg: #fff1f7;
+  --real-red: #ff0070;
+  --approximately-black: #000028;
+  --almost-black: #353430;
+  --almost-red: #ff007066;
+  --title-color-dark: #db00ff;
+  --regular-font-size: 18px;
+  --regular-line-height: 100%;
+  --gap-small: 10px;
+  --gap-medium: 20px;
+  --gap-large: 40px;
+  --decoration-gap: clamp(10px, 2.65vw, 20px);
+  --margin-small: 10px;
+  --margin-medium: 20px;
+   --margin-large: 40px; 
+  --margin-x-large: 50px;  
+  --margin-xl: 80px;
+  --min-height: 668px;
+  --project-font-family: "IBM Plex Mono", monospace, "Arial", sans-serif;
+  --corner-thickness: 1px;
+}
