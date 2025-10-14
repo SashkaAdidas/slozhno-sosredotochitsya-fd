@@ -109,7 +109,7 @@
   text-transform: lowercase;
   justify-content: center;
   background-color: transparent;
-  border: none;
+  /* border: none; */
   color: var(--button-color);
   font-family: inherit;
   font-weight: 400;

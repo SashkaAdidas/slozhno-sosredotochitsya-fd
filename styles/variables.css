@@ -20,8 +20,8 @@
   --decoration-gap: clamp(10px, 2.65vw, 20px);
   --margin-small: 10px;
   --margin-medium: 20px;
-   --margin-large: 40px; 
-  --margin-x-large: 50px;  
+  --margin-large: 40px;
+  --margin-x-large: 50px;
   --margin-xl: 80px;
   --min-height: 668px;
   --project-font-family: "IBM Plex Mono", monospace, "Arial", sans-serif;
