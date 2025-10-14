@@ -14,9 +14,6 @@
   --title-color-dark: #db00ff;
   --regular-font-size: 18px;
   --regular-line-height: 100%;
-  --gap-small: 10px;
-  --gap-medium: 20px;
-  --gap-large: 40px;
   --decoration-gap: clamp(10px, 2.65vw, 20px);
   --margin-small: 10px;
   --margin-medium: 20px;
@@ -24,6 +21,6 @@
   --margin-x-large: 50px;
   --margin-xl: 80px;
   --min-height: 668px;
-  --project-font-family: "IBM Plex Mono", monospace, "Arial", sans-serif;
+  --project-font-family: "IBM Plex Mono", monospace;
   --corner-thickness: 1px;
 }
