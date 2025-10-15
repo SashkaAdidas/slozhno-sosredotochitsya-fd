@@ -143,8 +143,7 @@ font-family: var(--project-font-family);
 }
 .header__title {
    text-shadow: 4px 4px 0 var(--accent-color);
-  
-}
+  }
 .header__text {
   color: var(--decor-color);
   background-color: var(--decor-bg-color);
