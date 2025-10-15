@@ -35,7 +35,7 @@
     --main-bg-color: var(--almost-white-bg);
     --main-text-color: var(--almost-black);
     --nav-color: var(--almost-black);
-    --nav-hover-color: var(--almost-black);
+    --nav-hover-color: var(--transparent-black);
     --main-heading-color: var(--almost-black);
     --header-logo-color: var(--title-color-light);
     --footer-logo-color: var(--title-color-light);
