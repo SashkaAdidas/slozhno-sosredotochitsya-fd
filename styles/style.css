@@ -326,7 +326,7 @@ font-family: var(--project-font-family);
 .footer {
   position: relative;
   block-size: 100vh;
-  min-height: 668px;
+  min-block-size: 668px;
   display: flex;
   justify-content: center;
   align-items: center;
