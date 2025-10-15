@@ -129,7 +129,7 @@
   color: var(--button-color);
   border: 1px solid var(--nav-hover-color);
 }
-.section__title{
+.section__title {
 font-family: var(--project-font-family);
   line-height: 83%;
   font-weight: 700;
@@ -208,7 +208,7 @@ font-family: var(--project-font-family);
     inline-size: 315px;
   }
 }
-.title-decor{
+.title-decor {
   font-weight: 700;
   font-size: inherit;
   margin-bottom: 10px;
