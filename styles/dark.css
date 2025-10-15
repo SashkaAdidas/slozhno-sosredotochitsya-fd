@@ -6,6 +6,7 @@
 
 :root.theme-dark {
   --accent-color: var(--real-red);
+  --bg-color: var(--approximately-black);
   --decoration-color: var(--real-red);
   --button-color: var(--real-red);
   --decor-color: var(--approximately-black);
@@ -27,6 +28,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: var(--real-red);
+    --bg-color: var(--approximately-black);
     --decoration-color: var(--real-red);
     --button-color: var(--real-red);
     --decor-color: var(--approximately-black);

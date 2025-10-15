@@ -5,6 +5,7 @@
 */
 :root.theme-light {
   --accent-color: var(--basic-pink);
+  --bg-color: var(--approximately-white);
   --decoration-color: var(--almost-black);
   --button-color: var(--almost-black);
   --decor-color: var(--almost-black);
@@ -26,6 +27,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: var(--basic-pink);
+    --bg-color: var(--approximately-white);
     --decoration-color: var(--almost-black);
     --button-color: var(--almost-black);
     --decor-color: var(--almost-black);
