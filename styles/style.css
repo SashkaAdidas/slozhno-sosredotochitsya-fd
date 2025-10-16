@@ -151,9 +151,9 @@ font-family: var(--project-font-family);
   font-size: 18px;
   line-height: 23.4px;
   font-family: inherit;
+   margin-block-end: 10px;
   max-inline-size: 355px;
-  max-block-size: 117px;
-  margin-block-end: 10px; 
+  max-block-size: 117px; 
   @media (width >= 768px) {
     max-inline-size: 364px;
     max-block-size: 117px;
